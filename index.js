@@ -36,6 +36,7 @@ app.get('/singer/:id.html', (req, res) => {
     <h1>${result.singer_name}</h1>
     <h3>${result.singer_id}</h3>
     <img src="${result.singer_img}" alt="">
+    <h1>123</h1>
     
 </body>
 </html>`)
